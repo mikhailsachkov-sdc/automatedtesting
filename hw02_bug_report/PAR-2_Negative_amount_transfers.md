@@ -1,7 +1,7 @@
 ### **Bug Report PAR-2: Negative amount transfers**
 
 **Title:** Transfer Funds module allows negative amounts
-**Environment:** `https://parabank.parasoft.com/parabank/transfer.htm`
+**Environment:** Firefox 149 and Chromium 147 (Environment-independent)
 
 **Description:**
 The "Transfer Funds" logic does not validate that the transfer amount is a positive integer. Entering a negative value reverses the transaction logic, allowing users to move money from the destination account into the source account.

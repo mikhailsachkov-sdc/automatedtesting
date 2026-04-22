@@ -1,7 +1,7 @@
 ### **Bug Report PAR-1: Header icons flicker
 
 **Title:** Visual flicker on header icons due to lack of asset preloading
-**Environment:** All Browsers (Chrome, Firefox, Safari)
+**Environment:** Firefox 149 and Chromium 147
 
 **Description:**
 There is a noticeable delay before hover-state images appear on navigation icons. This causes the icon to disappear or flicker briefly while the browser fetches the new image from the server.
